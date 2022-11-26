@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM golang:1.19.3-alpine
 
 # Install dependencies for copy
 RUN apk add -U --no-cache ca-certificates tzdata git
